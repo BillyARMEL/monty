@@ -75,8 +75,4 @@ modules of the top two elements of stack\queue
   
   💻BillyARMEL
 
-🎺 Acknowldgement
-  
-Holberton School- for giving these challenging project and providing guidlines
-ALX- sensei
-stack overflow - providing solution as needed
+
