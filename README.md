@@ -43,10 +43,11 @@ mul
 multiplies the top two elements of stack\queue
 mod
 modules of the top two elements of stack\queue
+
 📮 opcode preceded by # are treted as comment
 
 📘 AUTHOR
-💻Fraol Tolera
+💻BillyARMEL
 
 🎺 Acknowldgement
 Holberton School- for giving these challenging project and providing guidlines
