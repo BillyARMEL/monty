@@ -34,39 +34,49 @@ The parameter <int> must be an integer
 prints value in stack/queus, starting fromm the top.
 
   pint
+  
 prints the top value of the stack\queus.
 
   pop
+  
 Removes the top element of the stack\queus.
 swap -swaps the top two element of stack\queue
 
   nop
+  
 does nothing
 
   add
+  
 Adds the top two elements of the stack\queue
 The result is stored in the second element from the top and the top element is poped
 
   sub
+  
 subtracts the top two elements of the stack\queue
 the result is stored in the second element from the top and the top element is poped
 
   div
+  
 divides the top two elements of stack\queue
 takes zero's error in considaration
 
   mul
+  
 multiplies the top two elements of stack\queue
 
   mod
+  
 modules of the top two elements of stack\queue
 
 📮 opcode preceded by # are treted as comment
 
 📘 AUTHOR
+  
   💻BillyARMEL
 
 🎺 Acknowldgement
+  
 Holberton School- for giving these challenging project and providing guidlines
 ALX- sensei
 stack overflow - providing solution as needed
