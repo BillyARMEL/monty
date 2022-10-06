@@ -23,12 +23,14 @@ Run monty on file:
 🔧 Monty Opcodes
 
 push
-Usage:push <int>
+
+Usage: push <int>
   pushes an element to the stack
   
 The parameter <int> must be an integer
 
   pall
+  
 prints value in stack/queus, starting fromm the top.
 
   pint
