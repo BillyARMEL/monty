@@ -10,44 +10,59 @@ Ubuntu 20.04 LTS using gcc
 
 clone these repository to your machine:
 
-$ git clone https://github.com/Fraol123/monty.git
+$ https://github.com/BillyARMEL/monty.git
+
 compile with the following:
 
-gcc -Wall -Werror -Wextra -pedantic *.c -o monty
+$ gcc -Wall -Werror -Wextra -pedantic -std=c89 *.c -o monty
+
 Run monty on file:
 
 ./monty file.m
+
 🔧 Monty Opcodes
+
 push
 Usage:push <int>
-pushes an element to the stack
+  pushes an element to the stack
+  
 The parameter <int> must be an integer
-pall
+
+  pall
 prints value in stack/queus, starting fromm the top.
-pint
+
+  pint
 prints the top value of the stack\queus.
-pop
+
+  pop
 Removes the top element of the stack\queus.
 swap -swaps the top two element of stack\queue
-nop
+
+  nop
 does nothing
-add
+
+  add
 Adds the top two elements of the stack\queue
 The result is stored in the second element from the top and the top element is poped
-sub
+
+  sub
 subtracts the top two elements of the stack\queue
 the result is stored in the second element from the top and the top element is poped
-div
+
+  div
 divides the top two elements of stack\queue
 takes zero's error in considaration
-mul
+
+  mul
 multiplies the top two elements of stack\queue
-mod
+
+  mod
 modules of the top two elements of stack\queue
+
 📮 opcode preceded by # are treted as comment
 
 📘 AUTHOR
-💻Fraol Tolera
+  💻BillyARMEL
 
 🎺 Acknowldgement
 Holberton School- for giving these challenging project and providing guidlines
