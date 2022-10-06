@@ -4,9 +4,10 @@ These is monty interpreter built on C language and complient with ISO90,ISO099. 
 monty can run as either a stack (LIFO) or queue(FIFO).Mode can be switched mid-script. the interpreter can handle a varity opcodes, including printing, mathmatical operations, and more all handled opcodes are listed below.
 
 🏃 Getting Started
-Ubuntu 14.04 LTS - operating system required
-GCC 4.8.4 - Compiler used
+Ubuntu 20.04 LTS using gcc
+
 ⚡ How to install
+
 clone these repository to your machine:
 
 $ git clone https://github.com/Fraol123/monty.git
