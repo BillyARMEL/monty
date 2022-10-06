@@ -9,14 +9,16 @@ GCC 4.8.4 - Compiler used
 ⚡ How to install
 clone these repository to your machine:
 
-$ git clone https://github.com/Fraol123/monty.git
+$ https://github.com/BillyARMEL/monty.git
 compile with the following:
 
-gcc -Wall -Werror -Wextra -pedantic *.c -o monty
+gcc -Wall -Werror -Wextra -pedantic -std=c89 *.c -o monty
 Run monty on file:
 
 ./monty file.m
+
 🔧 Monty Opcodes
+
 push
 Usage:push <int>
 pushes an element to the stack
